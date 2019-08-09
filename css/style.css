@@ -37,7 +37,7 @@ body {
 }
 
 .wrapper {
-  margin: auto;
+  margin: 0 auto 10px auto;
   width: 100%;
   text-align: center;
 }
@@ -151,7 +151,7 @@ body {
 
 .progressive img.reveal {
   will-change: transform, opacity;
-  animation: progressiveReveal 0.5s ease-out;
+  animation: progressiveReveal 0.2s ease-out;
 }
 
 @keyframes progressiveReveal {
