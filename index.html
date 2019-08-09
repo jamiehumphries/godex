@@ -28,12 +28,15 @@
         <div class="section-label" id="{{region}}">
           {{ region | uppercase }}
         </div>
-        <div class="columns" ng-repeat="pokemon in pokedex.pokedexService[region] | orderBy:['id']:false | filter:CDFilter">
+        <div class="columns" ng-repeat="pokemon in pokedex.pokedexService[region]">
           <label class="container" id="container-{{ pokemon.id }}">
             <input type="checkbox" id="{{ pokemon.id }}">
             <span class="checkmark"></span>
             <div class="pokemon-name">
               #{{ pokemon.id | limitTo : 3 }} {{ pokemon.name }}
+            </div>
+            <div class="pokemon-form">
+              {{ pokemon.form }}
             </div>
             <figure data-href="https://www.serebii.net/pokemongo/pokemon/{{ pokemon.id }}.png" class="pokemon-image progressive replace"></figure>
           </label>
