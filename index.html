@@ -13,6 +13,9 @@
       <a href="/">
         <img id="logo" src="logo.png" alt="GoDex">
       </a>
+      <button onclick="localStorage.clear();location.reload();">
+        Reset
+      </button>
     </div>
     <div class="wrapper" ng-app="app" ng-controller="PokedexController as pokedex" ng-cloak>
       <span ng-init="regions = ['kanto', 'johto', 'hoenn', 'sinnoh']"></span>
