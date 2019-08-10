@@ -1,4 +1,5 @@
 /* global angular, localStorage */
+/* eslint-disable comma-dangle */
 
 const STORAGE_KEY = 'dex'
 
@@ -86,10 +87,10 @@ const PokedexService = (function () {
       { id: '027-a', name: 'Sandshrew', form: 'Alolan' },
       { id: '028', name: 'Sandslash' },
       { id: '028-a', name: 'Sandslash', form: 'Alolan' },
-      { id: '029', name: 'Nidoran' },
+      { id: '029', name: 'Nidoran♀' },
       { id: '030', name: 'Nidorina' },
       { id: '031', name: 'Nidoqueen' },
-      { id: '032', name: 'Nidoran' },
+      { id: '032', name: 'Nidoran♂' },
       { id: '033', name: 'Nidorino' },
       { id: '034', name: 'Nidoking' },
       { id: '035', name: 'Clefairy' },
@@ -602,22 +603,39 @@ const PokedexService = (function () {
       // { id: '479-h', name: 'Rotom', form: 'Heat' },
       // { id: '479-m', name: 'Rotom', form: 'Mow' },
       // { id: '479-w', name: 'Rotom', form: 'Wash' },
-      { id: '480', name: 'Froslass' },
-      { id: '481', name: 'Uxie' },
-      { id: '482', name: 'Mesprit' },
-      { id: '483', name: 'Azelf' },
+      { id: '480', name: 'Uxie' },
+      { id: '481', name: 'Mesprit' },
+      { id: '482', name: 'Azelf' },
+      { id: '483', name: 'Dialga' },
       { id: '484', name: 'Palkia' },
       { id: '485', name: 'Heatran' },
       // { id: '486', name: 'Regigigas' },
       { id: '487', name: 'Giratina', form: 'Altered' },
       { id: '487-o', name: 'Giratina', form: 'Origin' },
-      { id: '488', name: 'Cresselia' }
+      { id: '488', name: 'Cresselia' },
       // { id: '489', name: 'Phione' },
       // { id: '490', name: 'Manaphy' },
       // { id: '491', name: 'Darkrai' },
       // { id: '492', name: 'Shaymin', form: 'Land' },
       // { id: '492-s', name: 'Shaymin', form: 'Sky' },
-      // { id: '493', name: 'Arceus' }
+      // { id: '493', name: 'Arceus', form: 'Normal' },
+      // { id: '493-bug', name: 'Arceus', form: 'Bug' },
+      // { id: '493-dark', name: 'Arceus', form: 'Dark' },
+      // { id: '493-dragon', name: 'Arceus', form: 'Dragon' },
+      // { id: '493-electric', name: 'Arceus', form: 'Electric' },
+      // { id: '493-fairy', name: 'Arceus', form: 'Fairy' },
+      // { id: '493-fighting', name: 'Arceus', form: 'Fighting' },
+      // { id: '493-fire', name: 'Arceus', form: 'Fire' },
+      // { id: '493-flying', name: 'Arceus', form: 'Flying' },
+      // { id: '493-ghost', name: 'Arceus', form: 'Ghost' },
+      // { id: '493-grass', name: 'Arceus', form: 'Grass' },
+      // { id: '493-ground', name: 'Arceus', form: 'Ground' },
+      // { id: '493-ice', name: 'Arceus', form: 'Ice' },
+      // { id: '493-poison', name: 'Arceus', form: 'Poison' },
+      // { id: '493-psychic', name: 'Arceus', form: 'Psychic' },
+      // { id: '493-rock', name: 'Arceus', form: 'Rock' },
+      // { id: '493-steel', name: 'Arceus', form: 'Steel' },
+      // { id: '493-water', name: 'Arceus', form: 'Water' }
     ]
     this.unknown = [
       { id: '808', name: 'Meltan' },
