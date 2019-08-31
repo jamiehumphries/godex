@@ -1,5 +1,5 @@
 * {
-  font-family: sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 body {
@@ -34,6 +34,10 @@ body {
   height: 120px;
   display: block;
   margin: auto;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  right: 0;
 }
 
 .wrapper {
@@ -44,22 +48,25 @@ body {
 
 .pokemon-name {
   font-weight: bold;
-  padding-top: 8px;
-  padding-left: 10%;
   font-size: 14px;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  right: 0;
 }
 
 .pokemon-form {
   font-weight: bold;
-  padding-left: 10%;
-  padding-top: 2px;
-  height: 12px;
   font-size: 12px;
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  right: 0;
 }
 
 .container {
   display: block;
-  height: 160px;
+  height: 180px;
   position: relative;
   cursor: pointer;
   background-color: lightgray;

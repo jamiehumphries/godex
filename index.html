@@ -3,10 +3,11 @@
   <head>
     <meta charset="UTF-8">
     <title>GoDex</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css?v=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="favicon.ico" type="image/x-icon"/>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="topnav">
@@ -25,7 +26,7 @@
         </a>
       </div>
       <div ng-repeat="region in regions" class="section">
-        <div class="section-label" id="{{region}}">
+        <div class="section-label" id="{{ region }}">
           {{ region | uppercase }}
         </div>
         <div class="columns" ng-repeat="pokemon in pokedex.pokedexService[region]">
