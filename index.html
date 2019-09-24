@@ -19,7 +19,7 @@
       </button>
     </div>
     <div class="wrapper" ng-app="app" ng-controller="PokedexController as pokedex" ng-cloak>
-      <span ng-init="regions = ['kanto', 'johto', 'hoenn', 'sinnoh', 'unknown']"></span>
+      <span ng-init="regions = ['kanto', 'johto', 'hoenn', 'sinnoh', 'unova', 'unknown']"></span>
       <div class="jump">
         <a ng-repeat="region in regions" href="#{{ region }}">
           {{ region | uppercase }}
