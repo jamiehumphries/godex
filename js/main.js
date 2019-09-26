@@ -559,7 +559,7 @@ const PokedexService = (function () {
       { id: '436', name: 'Bronzor' },
       { id: '437', name: 'Bronzong' },
       { id: '438', name: 'Bonsly' },
-      // { id: '439', name: 'Mime Jr.' },
+      { id: '439', name: 'Mime Jr.' },
       { id: '440', name: 'Happiny' },
       { id: '441', name: 'Chatot' },
       { id: '442', name: 'Spiritomb' },
