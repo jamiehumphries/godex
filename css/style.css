@@ -23,6 +23,10 @@ body {
   padding: 14px 16px;
 }
 
+#reset {
+  cursor: pointer;
+}
+
 .columns {
   display: inline-grid;
   position: relative;

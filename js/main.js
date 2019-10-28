@@ -3,6 +3,13 @@
 
 const STORAGE_KEY = 'dex'
 
+document.getElementById('reset').addEventListener('click', () => {
+  if (confirm('Reset your Pokédex?')) {
+    localStorage.clear()
+    location.reload()
+  }
+})
+
 angular.element(document).ready(() => {
   const dex = JSON.parse(localStorage.getItem(STORAGE_KEY))
   if (dex && dex.length && dex.length > 0) {
