@@ -91,6 +91,7 @@ const PokedexService = (function () {
       { id: '025-detective', name: 'Pikachu', form: 'Detective' },
       { id: '025-strawhat', name: 'Pikachu', form: 'Straw Hat' },
       { id: '025-halloween2019', name: 'Pikachu', form: 'Mimikyu Costume' },
+      { id: '025-beanie', name: 'Pikachu', form: 'Beanie' },
       { id: '026', name: 'Raichu' },
       { id: '026-a', name: 'Raichu', form: 'Alolan' },
       { id: '027', name: 'Sandshrew' },
