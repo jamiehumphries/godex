@@ -811,7 +811,7 @@ const PokedexService = (function () {
       // { id: '646', name: 'Kyurem' },
       // { id: '647', name: 'Keldeo' },
       // { id: '648', name: 'Meloetta' },
-      // { id: '649', name: 'Genesect' }
+      { id: '649', name: 'Genesect' }
     ]
     this.unknown = [
       { id: '808', name: 'Meltan' },
