@@ -99,6 +99,7 @@ const PokedexService = (function () {
       { id: '025-clone', name: 'Pikachu', form: 'Pikachutwo' },
       { id: '025-libre', name: 'Pikachu', form: 'Pikachu Libre' },
       { id: '025-safari', name: 'Pikachu', form: 'Safari' },
+      { id: '025-flowerhat', name: 'Pikachu', form: 'Flower Hat' },
       { id: '026', name: 'Raichu' },
       { id: '026-a', name: 'Raichu', form: 'Alolan' },
       { id: '027', name: 'Sandshrew' },
