@@ -1,6 +1,3 @@
-/* global angular, localStorage */
-/* eslint-disable comma-dangle */
-
 const STORAGE_KEY = 'dex'
 
 document.getElementById('reset').addEventListener('click', () => {
