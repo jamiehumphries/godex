@@ -136,6 +136,7 @@ const PokedexService = (function () {
       { id: '051-a', name: 'Dugtrio', form: 'Alolan' },
       { id: '052', name: 'Meowth' },
       { id: '052-a', name: 'Meowth', form: 'Alolan' },
+      { id: '052-g', name: 'Meowth', form: 'Galarian' },
       { id: '053', name: 'Persian' },
       { id: '053-a', name: 'Persian', form: 'Alolan' },
       { id: '054', name: 'Psyduck' },
@@ -388,7 +389,9 @@ const PokedexService = (function () {
       { id: '261', name: 'Poochyena' },
       { id: '262', name: 'Mightyena' },
       { id: '263', name: 'Zigzagoon' },
+      { id: '263-g', name: 'Zigzagoon', form: 'Galarian' },
       { id: '264', name: 'Linoone' },
+      { id: '264-g', name: 'Linoone', form: 'Galarian' },
       { id: '265', name: 'Wurmple' },
       { id: '266', name: 'Silcoon' },
       { id: '267', name: 'Beautifly' },
@@ -721,7 +724,9 @@ const PokedexService = (function () {
       // { id: '552', name: 'Krokorok' },
       // { id: '553', name: 'Krookodile' },
       { id: '554', name: 'Darumaka' },
+      { id: '554-g', name: 'Darumaka', form: 'Galarian' },
       { id: '555', name: 'Darmanitan' },
+      { id: '555-g', name: 'Darmanitan', form: 'Galarian' },
       { id: '556', name: 'Maractus' },
       { id: '557', name: 'Dwebble' },
       { id: '558', name: 'Crustle' },
@@ -785,6 +790,7 @@ const PokedexService = (function () {
       { id: '616', name: 'Shelmet' },
       { id: '617', name: 'Accelgor' },
       { id: '618', name: 'Stunfisk' },
+      { id: '618-g', name: 'Stunfisk', form: 'Galarian' },
       // { id: '619', name: 'Mienfoo' },
       // { id: '620', name: 'Mienshao' },
       // { id: '621', name: 'Druddigon' },
@@ -820,6 +826,10 @@ const PokedexService = (function () {
     this.unknown = [
       { id: '808', name: 'Meltan' },
       { id: '809', name: 'Melmetal' }
+    ]
+    this.galar = [
+      { id: '862', name: 'Obstagoon' },
+      { id: '863', name: 'Perrserker' }
     ]
   }
   return PokedexService
