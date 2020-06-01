@@ -812,7 +812,7 @@ const PokedexService = (function () {
       { id: '640', name: 'Virizion' },
       { id: '641', name: 'Tornadus' },
       { id: '642', name: 'Thundurus' },
-      // { id: '643', name: 'Reshiram' },
+      { id: '643', name: 'Reshiram' },
       // { id: '644', name: 'Zekrom' },
       { id: '645', name: 'Landorus' },
       // { id: '646', name: 'Kyurem' },
