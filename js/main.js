@@ -820,7 +820,7 @@ const PokedexService = (function () {
       { id: '643', name: 'Reshiram' },
       { id: '644', name: 'Zekrom' },
       { id: '645', name: 'Landorus' },
-      // { id: '646', name: 'Kyurem' },
+      { id: '646', name: 'Kyurem' },
       // { id: '647', name: 'Keldeo' },
       // { id: '648', name: 'Meloetta' },
       { id: '649', name: 'Genesect' }
