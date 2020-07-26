@@ -625,7 +625,7 @@ const PokedexService = (function () {
       // { id: '479-f', name: 'Rotom', form: 'Frost' },
       // { id: '479-h', name: 'Rotom', form: 'Heat' },
       // { id: '479-m', name: 'Rotom', form: 'Mow' },
-      // { id: '479-w', name: 'Rotom', form: 'Wash' },
+      { id: '479-w', name: 'Rotom', form: 'Wash' },
       { id: '480', name: 'Uxie' },
       { id: '481', name: 'Mesprit' },
       { id: '482', name: 'Azelf' },
@@ -661,7 +661,7 @@ const PokedexService = (function () {
       // { id: '493-water', name: 'Arceus', form: 'Water' }
     ]
     this.unova = [
-      // { id: '494', name: 'Victini' },
+      { id: '494', name: 'Victini' },
       { id: '495', name: 'Snivy' },
       { id: '496', name: 'Servine' },
       { id: '497', name: 'Serperior' },
