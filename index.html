@@ -17,7 +17,7 @@
       </button>
     </div>
     <div class="wrapper" ng-app="app" ng-controller="PokedexController as pokedex" ng-cloak>
-      <span ng-init="regions = ['kanto', 'johto', 'hoenn', 'sinnoh', 'unova', 'unknown', 'galar']"></span>
+      <span ng-init="regions = ['kanto', 'johto', 'hoenn', 'sinnoh', 'unova', 'unknown', 'galar', 'mega']"></span>
       <div class="jump">
         <a ng-repeat="region in regions" href="#{{ region }}">
           {{ region | uppercase }}
@@ -32,7 +32,10 @@
             <input type="checkbox" id="{{ pokemon.id }}">
             <span class="checkmark"></span>
             <div class="pokemon-name">
-              #{{ pokemon.id | limitTo : 3 }} {{ pokemon.name }}
+              <span ng-if="region !== 'mega'">
+                #{{ pokemon.id | limitTo : 3 }}
+              </span>
+              {{ pokemon.name }}
             </div>
             <div class="pokemon-form">
               {{ pokemon.form }}
