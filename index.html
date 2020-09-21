@@ -40,7 +40,7 @@
             <div class="pokemon-form">
               {{ pokemon.form }}
             </div>
-            <figure data-href="https://www.serebii.net/pokemongo/pokemon/{{ pokemon.id }}.png" class="pokemon-image progressive replace"></figure>
+            <figure data-href="{{ pokemon.imgSrc || 'https://www.serebii.net/pokemongo/pokemon/' + pokemon.id + '.png' }}" class="pokemon-image progressive replace"></figure>
           </label>
         </div>
       </div>
