@@ -516,9 +516,9 @@ const PokedexService = (function () {
       { id: '383', name: 'Groudon' },
       { id: '384', name: 'Rayquaza' },
       { id: '385', name: 'Jirachi' },
-      { id: '386-d', name: 'Deoxys', form: 'Defense' },
       { id: '386', name: 'Deoxys', form: 'Normal' },
       { id: '386-a', name: 'Deoxys', form: 'Attack' },
+      { id: '386-d', name: 'Deoxys', form: 'Defense' },
       { id: '386-s', name: 'Deoxys', form: 'Speed' }
     ]
     this.sinnoh = [
