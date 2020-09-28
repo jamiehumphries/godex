@@ -28,8 +28,10 @@
           {{ region | uppercase }}
         </div>
         <div class="columns" ng-repeat="pokemon in pokedex.pokedexService[region]">
-          <label class="container" id="container-{{ pokemon.id }}">
-            <input type="checkbox" id="{{ pokemon.id }}">
+          <span ng-init="isShadow = pokemon.form === 'Shadow'"></span>
+          <span ng-init="elementId = isShadow ? pokemon.id + '-shadow' : pokemon.id"></span>
+          <label class="container" id="container-{{ elementId }}">
+            <input type="checkbox" id="{{ elementId }}">
             <span class="checkmark"></span>
             <div class="pokemon-name">
               <span ng-if="region !== 'mega'">
@@ -40,7 +42,8 @@
             <div class="pokemon-form">
               {{ pokemon.form }}
             </div>
-            <figure data-href="{{ pokemon.imgSrc || 'https://www.serebii.net/pokemongo/pokemon/' + pokemon.id + '.png' }}" class="pokemon-image progressive replace"></figure>
+            <figure data-href="https://www.serebii.net/pokemongo/pokemon/{{ pokemon.id }}.png" class="pokemon-image progressive replace"></figure>
+            <img class="shadow-icon" src="icons/shadow.png" alt="Shadow" ng-if="isShadow">
           </label>
         </div>
       </div>

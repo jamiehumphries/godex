@@ -244,7 +244,7 @@ const PokedexService = (function () {
       { id: '149', name: 'Dragonite' },
       { id: '150', name: 'Mewtwo' },
       { id: '150-armored', name: 'Mewtwo', form: 'Armoured' },
-      { id: '150-shadow', name: 'Mewtwo', form: 'Shadow', imgSrc: 'img/150-shadow.png' },
+      { id: '150', name: 'Mewtwo', form: 'Shadow' },
       { id: '151', name: 'Mew' }
     ]
     this.johto = [

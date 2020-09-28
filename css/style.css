@@ -172,6 +172,12 @@ body {
   animation: progressiveReveal 0.2s ease-out;
 }
 
+.shadow-icon {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
 @keyframes progressiveReveal {
   0% { transform: scale(0); opacity: 0; }
   100% { transform: scale(1); opacity: 1; }
