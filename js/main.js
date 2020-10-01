@@ -1095,7 +1095,7 @@ const PokedexService = (function () {
       // { id: '208-m', name: 'Mega Steelix' },
       // { id: '212-m', name: 'Mega Scizor' },
       // { id: '214-m', name: 'Mega Heracross' },
-      // { id: '229-m', name: 'Mega Houndoom' },
+      { id: '229-m', name: 'Mega Houndoom' },
       // { id: '248-m', name: 'Mega Tyranitar' },
       // { id: '254-m', name: 'Mega Sceptile' },
       // { id: '257-m', name: 'Mega Blaziken' },
