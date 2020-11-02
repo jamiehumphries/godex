@@ -1094,7 +1094,7 @@ const PokedexService = (function () {
       { id: '018-m', name: 'Mega Pidgeot' },
       // { id: '065-m', name: 'Mega Alakazam' },
       // { id: '080-m', name: 'Mega Slowbro' },
-      // { id: '094-m', name: 'Mega Gengar' },
+      { id: '094-m', name: 'Mega Gengar' },
       // { id: '115-m', name: 'Mega Kangaskhan' },
       // { id: '127-m', name: 'Mega Pinsir' },
       // { id: '130-m', name: 'Mega Gyarados' },
