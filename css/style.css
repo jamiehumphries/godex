@@ -32,6 +32,7 @@ body {
   position: relative;
   width: 200px;
   padding: 1px;
+  overflow: hidden;
 }
 
 .pokemon-image {

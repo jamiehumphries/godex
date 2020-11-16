@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <title>GO Dex</title>
-    <link rel="stylesheet" href="css/style.css?v=20200726">
+    <link rel="stylesheet" href="css/style.css?v=20201116">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="favicon.ico" type="image/x-icon"/>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
@@ -42,7 +42,7 @@
             <div class="pokemon-form">
               {{ pokemon.form }}
             </div>
-            <figure data-href="https://www.serebii.net/pokemongo/pokemon/{{ pokemon.id }}.png" class="pokemon-image progressive replace"></figure>
+            <img class="pokemon-image" src="https://www.serebii.net/pokemongo/pokemon/{{ pokemon.id }}.png" alt="">
             <img class="shadow-icon" src="icons/shadow.png" alt="Shadow" ng-if="isShadow">
           </label>
         </div>
@@ -50,7 +50,6 @@
     </div>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/angular-filter/0.5.8/angular-filter.min.js'></script>
-    <script src="js/main.js?v=20200726"></script>
-    <script src="js/progressive-image.js"></script>
+    <script src="js/main.js?v=20201116"></script>
   </body>
 </html>
