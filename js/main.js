@@ -1131,7 +1131,7 @@ const PokedexService = (function () {
       // { id: '428-m', name: 'Mega Lopunny' },
       // { id: '445-m', name: 'Mega Garchomp' },
       // { id: '448-m', name: 'Mega Lucario' },
-      // { id: '460-m', name: 'Mega Abomasnow' },
+      { id: '460-m', name: 'Mega Abomasnow' },
       // { id: '475-m', name: 'Mega Gallade' },
       // { id: '531-m', name: 'Mega Audino' },
       // { id: '719-m', name: 'Mega Diancie' }
