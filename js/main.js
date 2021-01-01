@@ -96,6 +96,7 @@ const PokedexService = (function () {
       { id: '025-rayquaza', name: 'Pikachu', form: 'Rayquaza Hat' },
       { id: '025-lucario', name: 'Pikachu', form: 'Lucario Hat' },
       { id: '025-worldcap', name: 'Pikachu', form: 'World Cap' },
+      { id: '025-newyear', name: 'Pikachu', form: 'New Year' },
       { id: '025-halloween2019', name: 'Pikachu', form: 'Mimikyu Costume' },
       { id: '025-libre', name: 'Pikachu', form: 'Pikachu Libre' },
       { id: '025-clone', name: 'Pikachu', form: 'Pikachutwo' },
