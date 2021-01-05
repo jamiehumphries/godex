@@ -835,7 +835,11 @@ const PokedexService = (function () {
       { id: '646', name: 'Kyurem' },
       // { id: '647', name: 'Keldeo' },
       // { id: '648', name: 'Meloetta' },
-      { id: '649', name: 'Genesect' }
+      { id: '649', name: 'Genesect' },
+      // { id: '649-e', name: 'Genesect', form: 'Shock Drive' },
+      { id: '649-f', name: 'Genesect', form: 'Burn Drive' },
+      // { id: '649-i', name: 'Genesect', form: 'Chill Drive' },
+      // { id: '649-w', name: 'Genesect', form: 'Douse Drive' }
     ]
     this.kalos = [
       { id: '650', name: 'Chespin' },
