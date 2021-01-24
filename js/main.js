@@ -1110,7 +1110,7 @@ const PokedexService = (function () {
       // { id: '142-m', name: 'Mega Aerodactyl' },
       // { id: '150-mx', name: 'Mega Mewtwo X' },
       // { id: '150-my', name: 'Mega Mewtwo Y' },
-      // { id: '181-m', name: 'Mega Ampharos' },
+      { id: '181-m', name: 'Mega Ampharos' },
       // { id: '208-m', name: 'Mega Steelix' },
       // { id: '212-m', name: 'Mega Scizor' },
       // { id: '214-m', name: 'Mega Heracross' },
