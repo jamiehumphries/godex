@@ -31,19 +31,19 @@
           <span ng-init="isShadow = pokemon.form === 'Shadow'"></span>
           <span ng-init="elementId = isShadow ? pokemon.id + '-shadow' : pokemon.id"></span>
           <label class="container" id="container-{{ elementId }}">
+            <img class="pokemon-image" ng-src="images/pokemon_icon_{{ pokemon.id }}.png" alt="">
+            <img class="shadow-icon" src="icons/shadow.png" alt="Shadow" ng-if="isShadow">
             <input type="checkbox" id="{{ elementId }}">
             <span class="checkmark"></span>
             <div class="pokemon-name">
               <span ng-if="region !== 'mega'">
-                #{{ pokemon.id | limitTo : 3 }}
+                #{{ pokemon.id.replace('pm0', '') | limitTo : 3 }}
               </span>
               {{ pokemon.name }}
             </div>
             <div class="pokemon-form">
               {{ pokemon.form }}
             </div>
-            <img class="pokemon-image" src="https://www.serebii.net/pokemongo/pokemon/{{ pokemon.id }}.png" alt="">
-            <img class="shadow-icon" src="icons/shadow.png" alt="Shadow" ng-if="isShadow">
           </label>
         </div>
       </div>
