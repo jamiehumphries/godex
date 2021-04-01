@@ -811,7 +811,7 @@ const PokedexService = (function () {
       { id: '639_00', name: 'Terrakion' },
       { id: '640_00', name: 'Virizion' },
       { id: '641_11', name: 'Tornadus', form: 'Incarnate' },
-      // { id: '641_12', name: 'Tornadus', form: 'Therian' },
+      { id: '641_12', name: 'Tornadus', form: 'Therian' },
       { id: '642_11', name: 'Thundurus', form: 'Incarnate' },
       { id: '642_12', name: 'Thundurus', form: 'Therian' },
       { id: '643_00', name: 'Reshiram' },
