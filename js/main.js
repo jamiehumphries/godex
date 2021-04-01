@@ -252,7 +252,7 @@ const PokedexService = (function () {
       { id: '150_00', name: 'Mewtwo' },
       { id: 'pm0150_00_pgo_a', name: 'Mewtwo', form: 'Armoured' },
       { id: '150_00', name: 'Mewtwo', form: 'Shadow' },
-      { id: '151_00', name: 'Mew' }
+      { id: '151_00', name: 'Mew' },
     ]
     this.johto = [
       { id: '152_00', name: 'Chikorita' },
@@ -381,7 +381,7 @@ const PokedexService = (function () {
       { id: '248_00', name: 'Tyranitar' },
       { id: '249_00', name: 'Lugia' },
       { id: '250_00', name: 'Ho-Oh' },
-      { id: '251_00', name: 'Celebi' }
+      { id: '251_00', name: 'Celebi' },
     ]
     this.hoenn = [
       { id: '252_00', name: 'Treecko' },
@@ -526,7 +526,7 @@ const PokedexService = (function () {
       { id: '386_11', name: 'Deoxys', form: 'Normal' },
       { id: '386_12', name: 'Deoxys', form: 'Attack' },
       { id: '386_13', name: 'Deoxys', form: 'Defense' },
-      { id: '386_14', name: 'Deoxys', form: 'Speed' }
+      { id: '386_14', name: 'Deoxys', form: 'Speed' },
     ]
     this.sinnoh = [
       { id: '387_00', name: 'Turtwig' },
@@ -829,7 +829,7 @@ const PokedexService = (function () {
       // { id: '649_13', name: 'Genesect', form: 'Shock Drive' },
       { id: '649_14', name: 'Genesect', form: 'Burn Drive' },
       // { id: '649_15', name: 'Genesect', form: 'Chill Drive' },
-      // { id: '649_12', name: 'Genesect', form: 'Douse Drive' }
+      // { id: '649_12', name: 'Genesect', form: 'Douse Drive' },
     ]
     this.kalos = [
       { id: '650_00', name: 'Chespin' },
@@ -904,7 +904,7 @@ const PokedexService = (function () {
       // { id: '718_00', name: 'Zygarde' },
       // { id: '719_00', name: 'Diancie' },
       // { id: '720_00', name: 'Hoopa' },
-      // { id: '721_00', name: 'Volcanion' }
+      // { id: '721_00', name: 'Volcanion' },
     ]
     this.alola = [
       // { id: '722_00', name: 'Rowlet' },
@@ -992,11 +992,11 @@ const PokedexService = (function () {
       // { id: '804_00', name: 'Naganadel' },
       // { id: '805_00', name: 'Stakataka' },
       // { id: '806_00', name: 'Blacephalon' },
-      // { id: '807_00', name: 'Zeraora' }
+      // { id: '807_00', name: 'Zeraora' },
     ]
     this.unknown = [
       { id: '808_00', name: 'Meltan' },
-      { id: '809_00', name: 'Melmetal' }
+      { id: '809_00', name: 'Melmetal' },
     ]
     this.galar = [
       // { id: '810_00', name: 'Grookey' },
@@ -1082,7 +1082,7 @@ const PokedexService = (function () {
       // { id: '890_00', name: 'Eternatus' },
       // { id: '891_00', name: 'Kubfu' },
       // { id: '892_00', name: 'Urshifu' },
-      // { id: '893_00', name: 'Zarude' }
+      // { id: '893_00', name: 'Zarude' },
     ]
     this.mega = [
       { id: '003_51', name: 'Mega Venusaur' },
@@ -1132,7 +1132,7 @@ const PokedexService = (function () {
       { id: '460_51', name: 'Mega Abomasnow' },
       // { id: '475_51', name: 'Mega Gallade' },
       // { id: '531_51', name: 'Mega Audino' },
-      // { id: '719_51', name: 'Mega Diancie' }
+      // { id: '719_51', name: 'Mega Diancie' },
     ]
   }
   return PokedexService
