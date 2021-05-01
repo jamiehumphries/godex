@@ -1117,7 +1117,7 @@ const PokedexService = (function () {
       { id: '310_51', name: 'Mega Manectric' },
       // { id: '319_51', name: 'Mega Sharpedo' },
       // { id: '323_51', name: 'Mega Camerupt' },
-      // { id: '334_51', name: 'Mega Altaria' },
+      { id: '334_51', name: 'Mega Altaria' },
       // { id: '354_51', name: 'Mega Banette' },
       // { id: '359_51', name: 'Mega Absol' },
       // { id: '362_51', name: 'Mega Glalie' },
