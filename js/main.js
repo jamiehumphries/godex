@@ -883,7 +883,7 @@ const PokedexService = (function () {
       // { id: '697_00', name: 'Tyrantrum' },
       // { id: '698_00', name: 'Amaura' },
       // { id: '699_00', name: 'Aurorus' },
-      // { id: '700_00', name: 'Sylveon' },
+      { id: '700_00', name: 'Sylveon' },
       // { id: '701_00', name: 'Hawlucha' },
       // { id: '702_00', name: 'Dedenne' },
       // { id: '703_00', name: 'Carbink' },
